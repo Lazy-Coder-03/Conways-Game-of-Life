@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Game of Life</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+</head>
+<body>
+    <main>
+        <div class="controls">
+            <label for="gridSize">Grid Size:</label>
+            <input type="range" id="gridSize" min="20" max="200" value="20" step="10">
+            <span id="gridSizeValue">20</span>
+
+            <label for="population">Starting Population %:</label>
+            <input type="range" id="population" min="0" max="100" value="0">
+            <span id="populationValue">0%</span>
+
+            <button id="playPause">Start</button>
+        </div>
+    </main>
+    <script src="sketch.js"></script>
+</body>
+</html>
